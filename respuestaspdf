@@ -1,0 +1,20 @@
+1. Usé `lstrip`, `replace`, `title` y `re.sub`. Cada una limpia justo lo que necesitaba: espacios, guiones, símbolos raros y formato.
+
+2. El `try-except` evita que el programa se caiga si algo falla, como si no hay datos o el archivo no existe.
+
+3. La pk es el número único de cada estudiante. Sin eso, no se puede buscar el mensaje correcto.
+
+4. Las clases organizan mejor el código. Todo está más claro y no se mezcla.
+
+5. Leí el JSON, busqué el nombre, saqué el ID, consulté el mensaje, limpié el texto y lo imprimí.
+
+6. Separar en clases hace que el código sea más fácil de leer, cambiar y mantener.
+
+7. Con 1000 registros puede tardar. Se puede mejorar usando diccionarios o filtros más rápidos.
+
+8. Usé `print` y probé paso por paso. Si algo fallaba, lo encerraba en `try-except`.
+
+9. Validar es clave. Si no revisás los datos, los errores se quedan y el resultado sale mal.
+
+10. Usé:  
+`SELECT mensaje, mision_1, mision_2, mision_3 FROM estudiante WHERE id = ?`
